@@ -7,11 +7,13 @@ description: Dynamsoft Code Parser SDK Documentation Homepage
 
 # Dynamsoft Code Parser Documentation
 
-* [Introduction]({{site.introduction}})
+Learn how to use Dynamsoft Code Parser SDK in different programming languages:
 
-* Development
-  * [JavaScript]({{site.javascript}})
-  * [C++]({{site.cpp}})
+- [C++]({{ site.cpp }})
 
-* Useful resources
-  * [Release Notes]({{site.release-notes}})
+Coming soon:
+
+- Python
+- C
+- .NET]
+- Java]

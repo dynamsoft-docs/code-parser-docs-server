@@ -17,6 +17,6 @@ needGenerateH3Content: true
 
 ## Enumerations  
 
-* [`ErrorCode`](enum/error-code.md)
-* [`MappingStatus`](enum/mapping-status.md)
-* [`ValidationStatus`](enum/validation-status.md)
+* [`ErrorCode`]({{ site.enumerations }}core/error-code.html)
+* [`MappingStatus`]({{ site.enumerations }}code-parser/mapping-status.html)
+* [`ValidationStatus`]({{ site.enumerations }}code-parser/validation-status.html)
