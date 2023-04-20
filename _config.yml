@@ -2,7 +2,7 @@ repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs-server/blob/ma
 repository: dynamsoft-docs/code-parser-docs-server
 docFullPath: https://www.dynamsoft.com/code-parser/docs/server
 firstLevelUrl: /code-parser/docs/server/
-docHomePage: /code-parser/docs/server/introduction/
+docHomePage: /code-parser/docs/core/introduction/
 
 cpp: /code-parser/docs/server/programming/cplusplus/
 cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
@@ -27,6 +27,24 @@ useVersionTree: true
 baseurl: "/code-parser/docs/server"
 plugins:
   - jemoji
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope: 
+      path: "programming/cplusplus" 
+    values: 
+      docRootName: "Code Parser C++" 
+      docHomePage: "/code-parser/docs/server/programming/cplusplus/"
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
 
 url: "https://www.dynamsoft.com" # sitemap root
 
