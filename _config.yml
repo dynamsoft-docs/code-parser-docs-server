@@ -39,7 +39,7 @@ defaults:
   - scope: 
       path: "programming/cplusplus" 
     values: 
-      docRootName: "Code Parser C++" 
+      docRootName: "Code Parser C++ Edition" 
       docHomePage: "/code-parser/docs/server/programming/cplusplus/"
   - scope:
       path: "Hide_Tree_Page.html"
