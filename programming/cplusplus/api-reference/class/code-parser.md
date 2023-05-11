@@ -4,6 +4,7 @@ title: CCodeParser Class - Dynamsoft Code Parser SDK C++ Edition API Reference
 description: This page shows CCodeParser Class of Dynamsoft Code Parser SDK C++ Edition.
 keywords: CCodeParser, api reference, c++
 needAutoGenerateSidebar: true
+permalink: /programming/cplusplus/api-reference/code-parser.html
 ---
 
 # CCodeParser Class

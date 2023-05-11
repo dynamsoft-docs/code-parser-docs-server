@@ -4,6 +4,7 @@ title: CParsedResultItem Class - Dynamsoft Code Parser SDK C++ Edition API Refer
 description: This page shows CParsedResultItem Class of Dynamsoft Code Parser SDK C++ Edition.
 keywords: CParsedResultItem, api reference, c++
 needAutoGenerateSidebar: true
+permalink: /programming/cplusplus/api-reference/parsed-result-item.html
 ---
 
 
