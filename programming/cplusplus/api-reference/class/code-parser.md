@@ -12,7 +12,6 @@ needAutoGenerateSidebar: true
   |----------------------|-------------|
   | [`CCodeParser`](#constructor) | Default constructor of `CCodeParser` object.|
   | [`~CCodeParser`](#destructor) | Destructor of `CCodeParser` object.|
-  | [`GetVersion`](#getversion) | Get version information of SDK.|
   | [`InitSettingsFromFile`](#initsettingsfromfile)  | Initialize runtime settings with the settings in a given JSON file. |
   | [`InitSettings`](#initsettings) | Initialize runtime settings with the settings in a given JSON string. |
   | [`Parse`](#parse) | Parses code data for readable results. |
@@ -34,24 +33,6 @@ Destructor of a `CCodeParser` object.
 dynamsoft::dcp::CCodeParser::~CCodeParser()
 ```
 
-## GetVersion
-
-Get version information of SDK.
-
-```cpp
-static const char* dynamsoft::dcp::CCodeParser::GetVersion()
-```
-
-**Return Value**
-
-The version information string.
-
-**Code Snippet**
-
-```cpp
-const char* versionInfo = dynamsoft::dcp::CCodeParser::GetVersion();
-```
-
 ## Parse
 
 Parses code data for human-readable results.
@@ -62,9 +43,12 @@ CParsedResultItem* dynamsoft::dcp::CCodeParser::Parse(const unsigned char* pData
 
 **Parameters**
 
-`[in] pData` The array of bytes which contain the code string.  
-`[in] length` The length of the code string bytes.  
+`[in] pData` The array of bytes which contain the code string.
+
+`[in] length` The length of the code string bytes.
+
 `[in] taskSettingName`<sub>Optional</sub> The name of [`CodeParserTaskSetting`]({{site.parameters}}code-parser-task-setting-options.html) which defines the settings used for code parsing.
+
 `[in,out] errorCode`<sub>Optional</sub> The error code.
 
 **Return Value**
@@ -120,8 +104,10 @@ int dynamsoft::dcp::CCodeParser::InitSettingsFromFile(const char* filePath, char
 
 **Parameters**
 
-`[in] filePath` The path of the settings file.  
-`[in,out] errorMsgBuffer`<sub>Optional</sub> The buffer is allocated by caller and the recommended length is 512. The error message will be copied to the buffer.  
+`[in] filePath` The path of the settings file.
+
+`[in,out] errorMsgBuffer`<sub>Optional</sub> The buffer is allocated by caller and the recommended length is 512. The error message will be copied to the buffer.
+
 `[in] errorMsgBufferLen`<sub>Optional</sub> The length of the allocated buffer.
 
 **Return Value**
@@ -151,7 +137,9 @@ int dynamsoft::dcp::CCodeParser::InitSettings (const char* content, char errorMs
 **Parameters**
 
 `[in] content` A JSON string that represents the content of the settings.
-`[in,out] errorMsgBuffer`<sub>Optional</sub> The buffer is allocated by caller and the recommended length is 512. The error message will be copied to the buffer.  
+
+`[in,out] errorMsgBuffer`<sub>Optional</sub> The buffer is allocated by caller and the recommended length is 512. The error message will be copied to the buffer.
+
 `[in] errorMsgBufferLen`<sub>Optional</sub> The length of the allocated buffer.
 
 **Return Value**

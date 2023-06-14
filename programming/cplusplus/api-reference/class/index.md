@@ -9,5 +9,6 @@ needAutoGenerateSidebar: true
 # Classes
 
 * [`CCodeParser`](code-parser.md)
+* [`CCodeParserModule`](code-parser-module.md)
 * [`CLicenseManager`](license-manager.md)
 * [`CParsedResultItem`](parsed-result-item.md)
