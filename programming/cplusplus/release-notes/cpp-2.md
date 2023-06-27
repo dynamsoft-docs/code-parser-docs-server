@@ -8,8 +8,9 @@ needGenerateH3Content: false
 
 # Release Notes for C++ Edition - 2.x
 
-## 2.0.0 (04/30/2023)
+## 2.0.0 (06/29/2023)
 
 ### Highlights
 
-[TODO]
+{%- include release-notes/product-highlight-2.0.0.md -%}
+
