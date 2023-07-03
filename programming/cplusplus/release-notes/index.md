@@ -8,4 +8,4 @@ needAutoGenerateSidebar: false
 
 # Release Notes - C++ Edition
 
-- [2.0.0 (06/29/2023)](cpp-2.md#200-06292023)
+- [2.0.0 (07/04/2023)](cpp-2.md#200-07042023)

@@ -19,7 +19,7 @@ In this guide, you will learn step by step on how to build a code parsing applic
   - Linux x64: Ubuntu 14.04.4+ LTS, Debian 8+, etc
 
 - Developing Tool
-  - Visual Studio 2008 or above
+  - Visual Studio 2012 or above
   - G++ 5.4+  
 
 >Note:

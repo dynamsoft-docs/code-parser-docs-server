@@ -8,7 +8,7 @@ needGenerateH3Content: false
 
 # Release Notes for C++ Edition - 2.x
 
-## 2.0.0 (06/29/2023)
+## 2.0.0 (07/04/2023)
 
 ### Highlights
 
