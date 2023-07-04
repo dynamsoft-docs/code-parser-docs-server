@@ -1,0 +1,51 @@
+repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs-server/blob/main
+repository: dynamsoft-docs/code-parser-docs-server
+docFullPath: https://www.dynamsoft.com/code-parser/docs/server
+firstLevelUrl: /code-parser/docs/server/
+docHomePage: /code-parser/docs/core/introduction/
+
+cpp: /code-parser/docs/server/programming/cplusplus/
+cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
+cpp_class: /code-parser/docs/server/programming/cplusplus/api-reference/class/
+cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+
+assets: /code-parser/docs/server/assets/
+edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs/server/assets/img-icon/icon-sad.png
+
+release_notes: /code-parser/docs/core/release-notes/
+code_types: /code-parser/docs/core/code-types/
+
+enumerations: /capture-vision/docs/core/enums/
+parameters: /capture-vision/docs/core/parameters/
+parameters_reference: /capture-vision/docs/core/parameters/reference/
+
+dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+
+useVersionTree: true
+
+baseurl: "/code-parser/docs/server"
+plugins:
+  - jemoji
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope: 
+      path: "programming/cplusplus" 
+    values: 
+      docRootName: "Code Parser C++ Edition" 
+      docHomePage: "/code-parser/docs/server/programming/cplusplus/"
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
+
+url: "https://www.dynamsoft.com" # sitemap root
+
