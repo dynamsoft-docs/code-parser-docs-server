@@ -14,6 +14,7 @@ edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
 smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
 sad_icon: /code-parser/docs/server/assets/img-icon/icon-sad.png
 
+release_notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
 
 enumerations: /capture-vision/docs/core/enums/
