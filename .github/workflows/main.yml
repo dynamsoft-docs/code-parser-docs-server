@@ -52,7 +52,7 @@ jobs:
           username: ${{ secrets.FTP_DYNAMSOFT_LOCAL_USER }}
           password: ${{ secrets.FTP_DYNAMSOFT_LOCAL_PASSWORD }}
           port: 21 
-          local-dir: /home/ubuntu/DDNDocServer/_site/
+          local-dir: /home/ubuntu/DCPDocServer/_site/
           server-dir: /www.dynamsoft.com/code-parser/docs/server/
 
   Build-Preview:
