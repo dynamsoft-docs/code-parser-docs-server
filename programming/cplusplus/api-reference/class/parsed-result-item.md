@@ -15,11 +15,11 @@ class dynamsoft::dcp::CParsedResultItem
 
   | Method               | Description |
   |----------------------|-------------|
-  | [`GetCodeType`](#getcodetype) | Get all recognized barcode results. |
-  | [`GetFieldMappingStatus`](#getfieldmappingstatus) | Get intermediate results. |
-  | [`GetFieldValidationStatus`](#getfieldvalidationstatus) | Free memory allocated for the intermediate results. |
-  | [`GetFieldValue`](#getfieldvalue) | Free memory allocated for text results. |
-  | [`GetJsonString`](#getjsonstring) | Get all recognized barcode results. |
+  | [`GetCodeType`](#getcodetype) | Gets the code type of the parsed result. |
+  | [`GetFieldMappingStatus`](#getfieldmappingstatus) | Gets the mapping status of a specified field from the parsed result. |
+  | [`GetFieldValidationStatus`](#getfieldvalidationstatus) | Gets the validation status of a specified field from the parsed result. |
+  | [`GetFieldValue`](#getfieldvalue) | Gets the value of a specified field from the parsed result. |
+  | [`GetJsonString`](#getjsonstring) | Gets the parsed result as a JSON formatted string. |
   
 ## GetCodeType
 
