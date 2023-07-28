@@ -11,7 +11,7 @@ needGenerateH3Content: true
 
 ## Getting Started
 
-- [User Guide](user-guide.md)
+- [User Guide](user-guide/getting-started.md)
 
 ## API Reference
 
