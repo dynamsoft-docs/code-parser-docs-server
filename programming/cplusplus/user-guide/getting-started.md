@@ -33,7 +33,7 @@ If you haven't downloaded the SDK yet, download the `C/C++ Package` now from <a 
 ## Build Your First Application
 
 Let's start by creating a console application which demonstrates how to use the minimum code to get the human-readable information from the code string.  
-> You can <a href="https://github.com/Dynamsoft/code-parser-cpp-samples/blob/main/samples/HelloWorld/HelloWorld.cpp" target="_blank">download the entire source code here</a>.
+> You can <a href="https://github.com/Dynamsoft/code-parser-cpp-samples/blob/main/Samples/HelloWorld/HelloWorld.cpp" target="_blank">download the entire source code here</a>.
 
 ### Create a New Project
 
@@ -166,4 +166,4 @@ Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpackin
     ./DCPSample
     ```
 
-> You can <a href="https://github.com/Dynamsoft/code-parser-cpp-samples/blob/main/samples/HelloWorld/HelloWorld.cpp" target="_blank">download the entire source code here</a>.
+> You can <a href="https://github.com/Dynamsoft/code-parser-cpp-samples/blob/main/Samples/HelloWorld/HelloWorld.cpp" target="_blank">download the entire source code here</a>.
