@@ -4,7 +4,6 @@ title: CParsedResult Class - Dynamsoft Code Parser SDK C++ Edition API Reference
 description: This page shows CParsedResult Class of Dynamsoft Code Parser SDK C++ Edition.
 keywords: CParsedResult, api reference, c++
 needAutoGenerateSidebar: true
-permalink: /programming/cplusplus/api-reference/parsed-result.html
 ---
 
 
@@ -46,6 +45,10 @@ virtual const CImageTag* GetSourceImageTag() const = 0;
 **Return value**
 
 Returns a pointer to a CImageTag object representing the tag of the source image.
+
+**See Also**
+
+[CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
 
 ### GetCount
 
