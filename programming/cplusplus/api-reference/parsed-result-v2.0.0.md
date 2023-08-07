@@ -15,31 +15,31 @@ class dynamsoft::dcp::CParsedResult
 
 | Method               | Description |
 |----------------------|-------------|
-| [`GetOriginalImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image. |
-| [`GetOriginalImageTag`](#getsourceimagetag) | Gets the tag of the source image. |
-| [`GetItemsCount`](#getitemscount) | Gets the number of parsed result items in the parsed result. |
+| [`GetSourceImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image. |
+| [`GetSourceImageTag`](#getsourceimagetag) | Gets the tag of the source image. |
+| [`GetCount`](#getcount) | Gets the number of parsed result items in the parsed result. |
 | [`GetItem`](#getitem) | Gets the parsed result item at the specified index. |
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the parsed result, if an error occurred. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the parsed result, if an error occurred. |
 
-### GetOriginalImageHashId
+### GetSourceImageHashId
 
 Gets the hash ID of the source image.
 
 ```cpp
-virtual const char* GetOriginalImageHashId() const = 0;
+virtual const char* GetSourceImageHashId() const = 0;
 ```
 
 **Return value**
 
 Returns a pointer to a null-terminated string containing the hash ID of the source image.
 
-### GetOriginalImageTag
+### GetSourceImageTag
 
 Gets the tag of the source image.
 
 ```cpp
-virtual const CImageTag* GetOriginalImageTag() const = 0;
+virtual const CImageTag* GetSourceImageTag() const = 0;
 ```
 
 **Return value**
@@ -50,12 +50,12 @@ Returns a pointer to a CImageTag object representing the tag of the source image
 
 [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
 
-### GetItemsCount
+### GetCount
 
 Gets the number of parsed result items in the parsed result.
 
 ```cpp
-virtual int GetItemsCount() const = 0;
+virtual int GetCount() const = 0;
 ```
 
 **Return value**
@@ -77,10 +77,6 @@ virtual const CParsedResultItem* GetItem(int index) const = 0;
 **Return value**
 
 Returns a pointer to the `CParsedResultItem` object at the specified index.
-
-**See Also**
-
-[CParsedResultItem]({{ site.cpp_api }}parsed-result-item.html)
 
 ### GetErrorCode
 
