@@ -11,9 +11,9 @@ needGenerateH3Content: true
 
 ## Classes
 
-* [`CCodeParser`](class/code-parser.md)
+* [`CCodeParser`](code-parser.md)
 * [`CLicenseManager`]({{ site.dcv_cpp_api }}license/license-manager.html)
-* [`CParsedResultItem`](class/parsed-result-item.md)
+* [`CParsedResultItem`](parsed-result-item.md)
 
 ## Enumerations  
 
