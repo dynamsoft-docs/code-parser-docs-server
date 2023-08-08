@@ -28,6 +28,8 @@ baseurl: "/code-parser/docs/server"
 plugins:
   - jemoji
 
+edition: desktop
+
 defaults:
   - scope:
       path: ""
