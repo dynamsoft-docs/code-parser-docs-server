@@ -45,13 +45,13 @@ Let's start by creating a console application which demonstrates how to use the 
 
 #### For Linux/ARM/Mac
 
-1. Create a new source file named `DCPSample.cpp` and place it into the folder `[INSTALLATION FOLDER]/Samples`.
+Create a new source file named `DCPSample.cpp` and place it into the folder `[INSTALLATION FOLDER]/Samples`.
 
 ### Include the Library
 
-1. Add headers and libs in `DCPSample.cpp`.
+Add headers and libs in `DCPSample.cpp`.
 
-    ```cpp
+```cpp
     #include<iostream>
     #include "[INSTALLATION FOLDER]/Include/DynamsoftCodeParser.h"
     #include "[INSTALLATION FOLDER]/Include/DynamsoftCore.h"
@@ -70,11 +70,11 @@ Let's start by creating a console application which demonstrates how to use the 
             #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
         #endif
     #endif
-    ```
+```
 
 ### Initialize a Code Parser Instance
 
-1. Initialize the license key.
+Initialize the license key.
 
     ```cpp
     int errorCode = 0;
@@ -91,7 +91,7 @@ Let's start by creating a console application which demonstrates how to use the 
     >- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Samples/HelloWorld/HelloWorld.cpp`.
     >- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a>.
 
-2. Create an instance of Dynamsoft Code Parser.
+Create an instance of Dynamsoft Code Parser.
 
     ```cpp
     CCodeParser* dcp = new CCodeParser();
