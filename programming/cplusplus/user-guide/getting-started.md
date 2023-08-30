@@ -45,95 +45,95 @@ Let's start by creating a console application which demonstrates how to use the 
 
 #### For Linux/ARM/Mac
 
-1. Create a new source file named `DCPSample.cpp` and place it into the folder `[INSTALLATION FOLDER]/Samples`.
+Create a new source file named `DCPSample.cpp` and place it into the folder `[INSTALLATION FOLDER]/Samples`.
 
 ### Include the Library
 
-1. Add headers and libs in `DCPSample.cpp`.
+Add headers and libs in `DCPSample.cpp`.
 
-    ```cpp
-    #include<iostream>
-    #include "[INSTALLATION FOLDER]/Include/DynamsoftCodeParser.h"
-    #include "[INSTALLATION FOLDER]/Include/DynamsoftCore.h"
-    #include "[INSTALLATION FOLDER]/Include/DynamsoftLicense.h"
-    using namespace std;
-    using namespace dynamsoft::dcp;
-    using namespace dynamsoft::license;
-    #if defined(_WIN64) || defined(_WIN32)
-        #ifdef _WIN64
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCodeParserx64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
-        #else
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCodeParserx86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
-            #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
-        #endif
+```cpp
+#include<iostream>
+#include "[INSTALLATION FOLDER]/Include/DynamsoftCodeParser.h"
+#include "[INSTALLATION FOLDER]/Include/DynamsoftCore.h"
+#include "[INSTALLATION FOLDER]/Include/DynamsoftLicense.h"
+using namespace std;
+using namespace dynamsoft::dcp;
+using namespace dynamsoft::license;
+#if defined(_WIN64) || defined(_WIN32)
+    #ifdef _WIN64
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCodeParserx64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
+    #else
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCodeParserx86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
     #endif
-    ```
+#endif
+```
 
 ### Initialize a Code Parser Instance
 
-1. Initialize the license key.
+Initialize the license key.
 
-    ```cpp
-    int errorCode = 0;
-    char errorBuf[512];
-    errorCode = CLicenseManager::InitLicense("YOUR-LICENSE-KEY", errorBuf, 512);
-    if (errorCode != EC_OK)
-    {
-        // Add your code for license error processing;
-        cout << errorBuf << endl;
-    }
-    ```
+```cpp
+int errorCode = 0;
+char errorBuf[512];
+errorCode = CLicenseManager::InitLicense("YOUR-LICENSE-KEY",errorBuf, 512);
+if (errorCode != EC_OK)
+{
+    // Add your code for license error processing;
+    cout << errorBuf << endl;
+}
+```
 
-    >Please replace `YOUR-LICENSE-KEY` with a valid DCP licensekey. There are two ways to obtain one:
-    >- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Samples/HelloWorld/HelloWorld.cpp`.
-    >- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a>.
+>Please replace `YOUR-LICENSE-KEY` with a valid DCP licensekey. There are two ways to obtain one:
+>- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Samples/HelloWorld/HelloWorld.cpp`.
+>- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a>.
 
-2. Create an instance of Dynamsoft Code Parser.
+Create an instance of Dynamsoft Code Parser.
 
-    ```cpp
-    CCodeParser* dcp = new CCodeParser();
-    ```
+```cpp
+CCodeParser* dcp = new CCodeParser();
+```
 
 ### Parse and Output Results
 
-1. Parse a code string.
+Parse a code string.
 
-    ```cpp
-    int errorCode = -1;
-    //get codeString and codeStringLenght somewhere else
-    CParsedResultItem* dcpResult = dcp->Parse(codeString, codeStringLenght, "", &errorCode);
-    ```
+```cpp
+int errorCode = -1;
+//get codeString and codeStringLenght somewhere else
+CParsedResultItem* dcpResult = dcp->Parse(codeString, codeStringLenght, "", &errorCode);
+```
 
-2. Get and output results.
+Get and output results.
 
-    ```cpp
-    if (dcpResult != NULL)
-    {
-        cout << "CodeType: " << dcpResult->GetCodeType() << endl;
-        cout << "Value of A-SPECIFIC-FIELD-NAME: " << dcpResult->GetFieldValue("A-SPECIFIC-FIELD-NAME") << endl;
-    }
-    ```
+```cpp
+if (dcpResult != NULL)
+{
+    cout << "CodeType: " << dcpResult->GetCodeType() << endl;
+    cout << "Value of A-SPECIFIC-FIELD-NAME: " << dcpResult->GetFieldValue("A-SPECIFIC-FIELD-NAME") << endl;
+}
+```
 
-    >Please replace `A-SPECIFIC-FIELD-NAME` to a specific field name based on the code string you are parsing. Check out [Supported Code Types and Fields]({{ site.code_types }}) for details.
+>Please replace `A-SPECIFIC-FIELD-NAME` to a specific field name based on the code string you are parsing. Check out [Supported Code Types and Fields]({{ site.code_types }}) for details.
 
 ### Release Allocated Memory
 
-1. Release the allocated memory for the barcode results.
+Release the allocated memory for the barcode results.
 
-    ```cpp
-    if (dcpResult != NULL)           
-        delete dcpResult;
-    ```
+```cpp
+if (dcpResult != NULL)           
+    delete dcpResult;
+```
 
-2. Release the allocated memory for the instance.
+Release the allocated memory for the instance.
 
-    ```cpp
-    if (dcp != NULL)           
-        delete dcp;
-    ```
+```cpp
+if (dcp != NULL)           
+    delete dcp;
+```
 
 >Note:  
 Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpacking path.
@@ -154,16 +154,16 @@ Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpackin
 
 #### For Linux
 
-1. Open a terminal and change to the target directory where `DCPSample.cpp` located in. Build the sample:
+Open a terminal and change to the target directory where `DCPSample.cpp` located in. Build the sample:
 
-    ```bash
-    g++ -o DCPSample DCPSample.cpp -lDynamsoftCodeParser -lDynamsoftCore -lDynamsoftLicense -L ../Lib/Linux -Wl,-rpath=../Lib/Linux -std=c++11
-    ```
+```bash
+g++ -o DCPSample DCPSample.cpp -lDynamsoftCodeParser -lDynamsoftCore -lDynamsoftLicense -L ../Lib/Linux -Wl,-rpath=../Lib/Linux -std=c++11
+```
 
-2. Run the program `DCPSample`.
+Run the program `DCPSample`.
 
-    ```bash
-    ./DCPSample
-    ```
+```bash
+./DCPSample
+```
 
 > You can <a href="https://github.com/Dynamsoft/code-parser-cpp-samples/blob/main/Samples/HelloWorld/HelloWorld.cpp" target="_blank">download the entire source code here</a>.
