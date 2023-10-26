@@ -61,13 +61,13 @@ using namespace dynamsoft::dcp;
 using namespace dynamsoft::license;
 #if defined(_WIN64) || defined(_WIN32)
     #ifdef _WIN64
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCodeParserx64.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftCorex64.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x64/DynamsoftLicensex64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCodeParserx64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftCorex64.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x64/DynamsoftLicensex64.lib")
     #else
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCodeParserx86.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftCorex86.lib")
-        #pragma comment(lib, "[INSTALLATION FOLDER]/Distributables/Lib/Windows/x86/DynamsoftLicensex86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCodeParserx86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftCorex86.lib")
+        #pragma comment(lib, "[INSTALLATION FOLDER]/Lib/Windows/x86/DynamsoftLicensex86.lib")
     #endif
 #endif
 ```
@@ -88,7 +88,7 @@ if (errorCode != EC_OK)
 ```
 
 >Please replace `YOUR-LICENSE-KEY` with a valid DCP licensekey. There are two ways to obtain one:
->- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Resources/CodeParser/Samples/HelloWorld/HelloWorld.cpp`.
+>- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Samples/HelloWorld/HelloWorld.cpp`.
 >- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a>.
 
 Create an instance of Dynamsoft Code Parser.
@@ -146,7 +146,7 @@ Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpackin
 
 2. Build the project to generate program `DCPSample.exe`.
 
-3. Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]\Distributables\Lib\Windows\x64` to the same folder as the `DCPSample.exe`.
+3. Copy **ALL** `*.dll` files under `[INSTALLATION FOLDER]\Lib\Windows\x64` to the same folder as the `DCPSample.exe`.
 
 4. Run the program `DCPSample.exe`.
 
@@ -157,7 +157,7 @@ Please change all `[INSTALLATION FOLDER]` in above code snippet to your unpackin
 Open a terminal and change to the target directory where `DCPSample.cpp` located in. Build the sample:
 
 ```bash
-g++ -o DCPSample DCPSample.cpp -lDynamsoftCodeParser -lDynamsoftCore -lDynamsoftLicense -L ../Distributables/Lib/Linux -Wl,-rpath=../Distributables/Lib/Linux -std=c++11
+g++ -o DCPSample DCPSample.cpp -lDynamsoftCodeParser -lDynamsoftCore -lDynamsoftLicense -L ../Lib/Linux -Wl,-rpath=../Lib/Linux -std=c++11
 ```
 
 Run the program `DCPSample`.
