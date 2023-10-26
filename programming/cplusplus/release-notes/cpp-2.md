@@ -10,7 +10,7 @@ needGenerateH3Content: false
 
 ## 2.0.20 (10/26/2023)
 
-This is a compatibility update that is designed to work with the latest version of DynamsoftCaptureVision (DCV) architecture.
+This is a compatibility update that is designed to work with the latest version of `DynamsoftCaptureVision (DCV)` architecture.
 
 ## 2.0.10 (08/08/2023)
 
