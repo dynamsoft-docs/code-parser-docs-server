@@ -28,21 +28,20 @@ jobs:
     steps:
       - name: Build the full site with preview branch
         run: |
-          cd ${{ runner.temp }}
           mkdir -p DocHome
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs-server.git code-parser-docs-server
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
           cp -rfp ./code-parser-docs-server/* ./DocHome/
           cp -rfp ./Docs-Template-Repo/* ./DocHome/
           sed -i -e "1,3s/blob\/master$/blob\/preview/" \
-          -e "1,3s/blob\/main$/blob\/preview/" ${{ runner.temp }}/DocHome/_config.yml
+          -e "1,3s/blob\/main$/blob\/preview/" ./DocHome/_config.yml
           # cd DocHome && bundle install && bundle exec jekyll build  
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ${{ runner.temp }}/DocHome/
+          source: ./DocHome/
           destination: ./_site/code-parser/docs/server
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
