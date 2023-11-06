@@ -26,6 +26,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Build the full site with preview branch
         run: |
           mkdir -p DocHome
@@ -35,14 +37,12 @@ jobs:
           cp -rfp ./Docs-Template-Repo/* ./DocHome/
           sed -i -e "1,3s/blob\/master$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" ./DocHome/_config.yml
-          # cd DocHome && bundle install && bundle exec jekyll build  
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./DocHome/
-          destination: ./_site/code-parser/docs/server
+          cd DocHome && bundle install && bundle exec jekyll build --destination ./_site/code-parser/docs/server/
+#      - name: Build with Jekyll
+#        uses: actions/jekyll-build-pages@v1
+#        with:
+#          source: ./DocHome/
+#          destination: ./_site/code-parser/docs/server
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
