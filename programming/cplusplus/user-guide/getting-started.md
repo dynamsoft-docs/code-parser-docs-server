@@ -103,8 +103,8 @@ Parse a code string.
 
 ```cpp
 int errorCode = -1;
-//get codeString and codeStringLenght somewhere else
-CParsedResultItem* dcpResult = dcp->Parse(codeString, codeStringLenght, "", &errorCode);
+//get codeString and codeStringLength somewhere else
+CParsedResultItem* dcpResult = dcp->Parse(codeString, codeStringLength, "", &errorCode);
 ```
 
 Get and output results.
