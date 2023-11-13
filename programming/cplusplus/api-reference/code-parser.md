@@ -47,7 +47,7 @@ CParsedResultItem* dynamsoft::dcp::CCodeParser::Parse(const unsigned char* pData
 
 `[in] length` The length of the code string bytes.
 
-`[in] taskSettingName`<sub>Optional</sub> The name of [`CodeParserTaskSetting`]({{site.parameters}}code-parser-task-setting-options.html) which defines the settings used for code parsing.
+`[in] taskSettingName`<sub>Optional</sub> The name of [`CodeParserTaskSetting`]({{site.parameters}}file/task-settings/code-parser-task-settings.html) which defines the settings used for code parsing.
 
 `[in,out] errorCode`<sub>Optional</sub> The error code.
 

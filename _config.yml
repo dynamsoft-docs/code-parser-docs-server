@@ -6,7 +6,6 @@ docHomePage: /code-parser/docs/core/introduction/
 
 cpp: /code-parser/docs/server/programming/cplusplus/
 cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
-cpp_class: /code-parser/docs/server/programming/cplusplus/api-reference/class/
 cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
 assets: /code-parser/docs/server/assets/
@@ -28,6 +27,14 @@ useVersionTree: true
 baseurl: "/code-parser/docs/server"
 plugins:
   - jemoji
+  - jekyll-sitemap
+  - jekyll-webp
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-seo-tag
+
+edition: desktop
 
 defaults:
   - scope:
