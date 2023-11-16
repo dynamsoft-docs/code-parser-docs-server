@@ -15,11 +15,10 @@ sad_icon: /code-parser/docs/server/assets/img-icon/icon-sad.png
 
 release_notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
+dcp_parameters: /code-parser/docs/core/parameters/
 
-enumerations: /capture-vision/docs/core/enums/
-parameters: /capture-vision/docs/core/parameters/
-parameters_reference: /capture-vision/docs/core/parameters/reference/
-
+dcv_enumerations: /capture-vision/docs/core/enums/
+dcv_parameters: /capture-vision/docs/core/parameters/
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 
 useVersionTree: true

@@ -17,6 +17,6 @@ needGenerateH3Content: true
 
 ## Enumerations  
 
-* [`ErrorCode`]({{ site.enumerations }}core/error-code.html?lang=cpp)
-* [`MappingStatus`]({{ site.enumerations }}code-parser/mapping-status.html?lang=cpp)
-* [`ValidationStatus`]({{ site.enumerations }}code-parser/validation-status.html?lang=cpp)
+* [`ErrorCode`]({{ site.dcv_enumerations }}core/error-code.html?lang=cpp)
+* [`MappingStatus`]({{ site.dcv_enumerations }}code-parser/mapping-status.html?lang=cpp)
+* [`ValidationStatus`]({{ site.dcv_enumerations }}code-parser/validation-status.html?lang=cpp)
