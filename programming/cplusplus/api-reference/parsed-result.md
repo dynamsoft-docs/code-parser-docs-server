@@ -15,8 +15,8 @@ class dynamsoft::dcp::CParsedResult
 
 | Method               | Description |
 |----------------------|-------------|
-| [`GetOriginalImageHashId`](#getsourceimagehashid) | Gets the hash ID of the source image. |
-| [`GetOriginalImageTag`](#getsourceimagetag) | Gets the tag of the source image. |
+| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the source image. |
+| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the source image. |
 | [`GetItemsCount`](#getitemscount) | Gets the number of parsed result items in the parsed result. |
 | [`GetItem`](#getitem) | Gets the parsed result item at the specified index. |
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the parsed result, if an error occurred. |
