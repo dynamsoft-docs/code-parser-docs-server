@@ -47,7 +47,7 @@ CParsedResultItem* dynamsoft::dcp::CCodeParser::Parse(const unsigned char* pData
 
 `[in] length` The length of the code string bytes.
 
-`[in] taskSettingName`<sub>Optional</sub> The name of [`CodeParserTaskSetting`]({{site.parameters}}file/task-settings/code-parser-task-settings.html) which defines the settings used for code parsing.
+`[in] taskSettingName`<sub>Optional</sub> The name of [`CodeParserTaskSetting`]({{site.dcv_parameters}}file/task-settings/code-parser-task-settings.html) which defines the settings used for code parsing.
 
 `[in,out] errorCode`<sub>Optional</sub> The error code.
 
@@ -158,3 +158,7 @@ dcp->InitSettings("YOUR-SETTING-STRING", errorBuf, 512);
 // Do something with dcp object
 delete dcp;
 ```
+
+**See Also**
+
+[Parameter Organization when Using Dynamsoft Code Parser Independently]({{site.dcp_parameters}}parameter-organization-structure.html#parameter-organization-when-using-dynamsoft-code-parser-independently)
