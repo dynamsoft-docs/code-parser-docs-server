@@ -40,11 +40,11 @@
                     },
                     {
                         "path": "/parameters/reference/barcode-format-specification",
-                        "version": "2.0.20"
+                        "version": "10.0.20"
                     },
                     {
                         "path": "/parameters/reference/barcode-reader-task-settings",
-                        "version": "2.0.20"
+                        "version": "10.0.20"
                     },
                     {
                         "path": "/parameters/reference/capture-vision-template",
@@ -64,7 +64,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-parameter",
-                        "version": "3.0.20"
+                        "version": "2.0.20"
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
@@ -131,11 +131,11 @@
                     },
                     {
                         "path": "/parameters/reference/barcode-format-specification",
-                        "version": "2.0.10"
+                        "version": "10.0.10"
                     },
                     {
                         "path": "/parameters/reference/barcode-reader-task-settings",
-                        "version": "2.0.10"
+                        "version": "10.0.10"
                     },
                     {
                         "path": "/parameters/reference/capture-vision-template",
@@ -155,7 +155,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-parameter",
-                        "version": "3.0.10"
+                        "version": "2.0.10"
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
@@ -222,11 +222,11 @@
                     },
                     {
                         "path": "/parameters/reference/barcode-format-specification",
-                        "version": "2.0.0"
+                        "version": "10.0.0"
                     },
                     {
                         "path": "/parameters/reference/barcode-reader-task-settings",
-                        "version": "2.0.0"
+                        "version": "10.0.0"
                     },
                     {
                         "path": "/parameters/reference/capture-vision-template",
@@ -246,7 +246,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-parameter",
-                        "version": "3.0.0"
+                        "version": "2.0.0"
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
