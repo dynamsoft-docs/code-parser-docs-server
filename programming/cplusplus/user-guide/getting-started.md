@@ -27,7 +27,7 @@ In this guide, you will learn step by step on how to build a code parsing applic
 
 ## Installation
 
-If you haven't downloaded the SDK yet, download the `C/C++ Package` now from <a href="https://www.dynamsoft.com/code-parser/downloads/?utm_source=docs" target="_blank">Dynamsoft website</a> and unpack the package into the directory of your choice.
+If you haven't downloaded the SDK yet, download the `C/C++ Package` now from <a href="https://www.dynamsoft.com/customer/download?utm_source=docs" target="_blank">Dynamsoft website</a> and unpack the package into the directory of your choice.
 >For this tutorial, we unpack it to `[INSTALLATION FOLDER]`, change it to your unpacking path for the following content.
 
 ## Build Your First Application
