@@ -8,9 +8,28 @@ needGenerateH3Content: false
 
 # Release Notes for C++ Edition - 2.x
 
+## 2.2.0 (01/16/2024)
+
+This is a compatibility update that is designed to work with the version 2.2 of `DynamsoftCaptureVision (DCV)` architecture.
+
+### New
+
+- Added the following methods to the `CParsedResult` class:
+  - A new constructor
+  - `Retain`
+  - `Release`
+
+### Break Changes
+
+- The destructor functions of the following classes are changed to protected:
+  - `CParsedResultItem`
+  - `CParsedResult`
+- Removed an internal logic that grouping the text line recognition result of the MRZ. The logic is replaced by the text line group definition of the parameter system.
+- Change the compiler option of the runtime library of Windows DLLs from MD to MT.
+
 ## 2.0.20 (10/26/2023)
 
-This is a compatibility update that is designed to work with the latest version of `DynamsoftCaptureVision (DCV)` architecture.
+This is a compatibility update that is designed to work with the version 2.0.20 of `DynamsoftCaptureVision (DCV)` architecture.
 
 ## 2.0.10 (08/08/2023)
 

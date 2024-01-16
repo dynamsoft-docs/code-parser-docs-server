@@ -21,9 +21,6 @@ class dynamsoft::dcp::CParsedResult
 | [`GetItem`](#getitem) | Gets the parsed result item at the specified index. |
 | [`GetErrorCode`](#geterrorcode) | Gets the error code of the parsed result, if an error occurred. |
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the parsed result, if an error occurred. |
-| [`Release`](#release) | Decreases the reference count of the `CParsedResult` object. |
-| [`Retain`](#retain) | Increases the reference count of the `CParsedResult` object. |
-| [`operator[]`](#operator)           | Gets a pointer to the `CParsedResultItem` object at the specified index.|
 
 ### GetOriginalImageHashId
 
@@ -108,43 +105,3 @@ virtual const char* GetErrorString() const = 0;
 **Return value**
 
 Returns a pointer to a null-terminated string containing the error message of the parsed result, or a pointer to an empty string if no error occurred.
-
-### Release
-
-Decreases the reference count of the `CParsedResult` object.
-
-```cpp
-virtual void Release() = 0;
-```
-
-### Retain
-
-Increases the reference count of the `CParsedResult` object.
-
-```cpp
-virtual CParsedResult* Retain() = 0;
-```
-
-**Return value**
-
-Returns an object of `CParsedResult`.
-
-### operator[]
-
-Gets a pointer to the `CParsedResultItem` object at the specified index.
-
-```cpp
-virtual const CParsedResultItem* operator[](int index) const = 0;
-```
-
-**Parameters**
-
-`[in] index` The index of the parsed result item to retrieve.
-
-**Return value**
-
-Returns a pointer to the `CParsedResultItem` object at the specified index.
-
-**See Also**
-
-[CParsedResultItem]({{ site.cpp_api }}parsed-result-item.html)
