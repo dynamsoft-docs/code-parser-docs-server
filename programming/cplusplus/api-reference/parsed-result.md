@@ -23,7 +23,7 @@ class dynamsoft::dcp::CParsedResult
 | [`GetErrorString`](#geterrorstring) | Gets the error message of the parsed result, if an error occurred. |
 | [`Release`](#release) | Decreases the reference count of the `CParsedResult` object. |
 | [`Retain`](#retain) | Increases the reference count of the `CParsedResult` object. |
-| [`operator[]`](#operator[])           | Gets a pointer to the `CParsedResultItem` object at the specified index.|
+| [`operator[]`](#operator)           | Gets a pointer to the `CParsedResultItem` object at the specified index.|
 
 ### GetOriginalImageHashId
 
