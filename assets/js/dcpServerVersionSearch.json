@@ -1,38 +1,38 @@
 [
     {
-        "version": "2.2.0",
+        "version": "2.2.10",
         "matchList": {
             "cpp":{
                 "dcvRepoServer": [
                     {
                         "path": "/programming/cplusplus/api-reference/capture-vision-router",
-                        "version": "2.2.0"
+                        "version": "2.2.10"
                     },
                     {
                         "path": "/programming/cplusplus/api-reference/core",
-                        "version": "3.2.0"
+                        "version": "3.2.10"
                     },
                     {
                         "path": "/programming/cplusplus/api-reference/image-processing",
-                        "version": "2.2.0"
+                        "version": "2.2.10"
                     },
                     {
                         "path": "/programming/cplusplus/api-reference/license",
-                        "version": "3.2.0"
+                        "version": "3.2.10"
                     },
                     {
                         "path": "/programming/cplusplus/api-reference/utility",
-                        "version": "1.2.0"
+                        "version": "1.2.10"
                     }
                 ],
                 "dcvRepoCore": [
                     {
                         "path": "/enums/capture-vision-router",
-                        "version": "2.2.0"
+                        "version": "2.2.10"
                     },
                     {
                         "path": "/enums/code-parser",
-                        "version": "3.2.0"
+                        "version": "2.2.10"
                     },
                     {
                         "path": "/enums/core",
@@ -68,7 +68,98 @@
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/label-recognizer-task-settings",
                         "version": "3.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/semantic-processing",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/target-roi-def",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/text-line-specification",
+                        "version": "3.2.0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "version": "2.2.0",
+        "matchList": {
+            "cpp":{
+                "dcvRepoServer": [
+                    {
+                        "path": "/programming/cplusplus/api-reference/capture-vision-router",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/programming/cplusplus/api-reference/core",
+                        "version": "3.2.0"
+                    },
+                    {
+                        "path": "/programming/cplusplus/api-reference/image-processing",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/programming/cplusplus/api-reference/license",
+                        "version": "3.2.0"
+                    },
+                    {
+                        "path": "/programming/cplusplus/api-reference/utility",
+                        "version": "1.2.0"
+                    }
+                ],
+                "dcvRepoCore": [
+                    {
+                        "path": "/enums/capture-vision-router",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/enums/code-parser",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/enums/core",
+                        "version": "3.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/barcode-format-specification",
+                        "version": "10.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/barcode-reader-task-settings",
+                        "version": "10.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/capture-vision-template",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/character-model",
+                        "version": "3.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/code-parser-task-settings",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/global-parameter",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/image-parameter",
+                        "version": "2.2.0"
+                    },
+                    {
+                        "path": "/parameters/reference/image-source-options",
+                        "version": "2.2.0"
                     },
                     {
                         "path": "/parameters/reference/label-recognizer-task-settings",
@@ -123,7 +214,7 @@
                     },
                     {
                         "path": "/enums/code-parser",
-                        "version": "3.0.20"
+                        "version": "2.0.20"
                     },
                     {
                         "path": "/enums/core",
@@ -159,7 +250,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.20"
+                        "version": "2.0.20"
                     },
                     {
                         "path": "/parameters/reference/label-recognizer-task-settings",
@@ -209,7 +300,7 @@
                 ],
                 "dcvRepoCore": [
                     {
-                        "path": "/enums/barcode-reader",
+                        "path": "/enums/code-parser",
                         "version": "2.0.10"
                     },
                     {
@@ -250,7 +341,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.10"
+                        "version": "2.0.10"
                     },
                     {
                         "path": "/parameters/reference/label-recognizer-task-settings",
@@ -300,7 +391,7 @@
                 ],
                 "dcvRepoCore": [
                     {
-                        "path": "/enums/barcode-reader",
+                        "path": "/enums/code-parser",
                         "version": "2.0.0"
                     },
                     {
@@ -341,7 +432,7 @@
                     },
                     {
                         "path": "/parameters/reference/image-source-options",
-                        "version": "3.0.0"
+                        "version": "2.0.0"
                     },
                     {
                         "path": "/parameters/reference/label-recognizer-task-settings",

@@ -8,6 +8,12 @@ needGenerateH3Content: false
 
 # Release Notes for C++ Edition - 2.x
 
+## 2.2.10 (03/01/2024)
+
+### Improved
+
+- Security update for `DynamsoftCodeParser` library and other corresponding libraries.
+
 ## 2.2.0 (01/16/2024)
 
 This is a compatibility update that is designed to work with the version 2.2 of `DynamsoftCaptureVision (DCV)` architecture.
