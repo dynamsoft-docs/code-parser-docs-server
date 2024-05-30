@@ -25,7 +25,7 @@ This is a compatibility update that is designed to work with the version 2.2 of 
   - `Retain`
   - `Release`
 
-### Break Changes
+### Breaking Changes
 
 - The destructor functions of the following classes are changed to protected:
   - `CParsedResultItem`

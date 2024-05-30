@@ -9,11 +9,11 @@ description: Dynamsoft Code Parser SDK Documentation Homepage
 
 Learn how to use Dynamsoft Code Parser SDK in different programming languages:
 
-- [C++]({{ site.cpp }})
+- [C++]({{ site.dcp_cpp }})
+- [.NET]({{ site.dcp_dotnet }})
 
 Coming soon:
 
 - Python
 - C
-- .NET]
-- Java]
+- Java
