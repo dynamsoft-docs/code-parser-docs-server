@@ -4,22 +4,27 @@ docFullPath: https://www.dynamsoft.com/code-parser/docs/server
 firstLevelUrl: /code-parser/docs/server/
 docHomePage: /code-parser/docs/core/introduction/
 
-cpp: /code-parser/docs/server/programming/cplusplus/
-cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
-cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+dcp_cpp: /code-parser/docs/server/programming/cplusplus/
+dcp_cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
+dcp_cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+
+dcp_dotnet: /code-parser/docs/server/programming/dotnet/
+dcp_dotnet_api: /code-parser/docs/server/programming/dotnet/api-reference/
+dcp_dotnet_release_notes: /code-parser/docs/server/programming/dotnet/release-notes/
 
 assets: /code-parser/docs/server/assets/
 edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
 smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
 sad_icon: /code-parser/docs/server/assets/img-icon/icon-sad.png
 
-release_notes: /code-parser/docs/core/release-notes/
-code_types: /code-parser/docs/core/code-types/
+dcp_release_notes: /code-parser/docs/core/release-notes/
+dcp_code_types: /code-parser/docs/core/code-types/
 dcp_parameters: /code-parser/docs/core/parameters/
 
 dcv_enumerations: /capture-vision/docs/core/enums/
 dcv_parameters: /capture-vision/docs/core/parameters/
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
 
 useVersionTree: true
 

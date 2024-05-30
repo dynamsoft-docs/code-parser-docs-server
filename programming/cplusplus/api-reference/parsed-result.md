@@ -25,7 +25,7 @@ class dynamsoft::dcp::CParsedResult
 | [`Retain`](#retain) | Increases the reference count of the `CParsedResult` object. |
 | [`operator[]`](#operator)           | Gets a pointer to the `CParsedResultItem` object at the specified index.|
 
-### GetOriginalImageHashId
+## GetOriginalImageHashId
 
 Gets the hash ID of the source image.
 
@@ -37,7 +37,7 @@ virtual const char* GetOriginalImageHashId() const = 0;
 
 Returns a pointer to a null-terminated string containing the hash ID of the source image.
 
-### GetOriginalImageTag
+## GetOriginalImageTag
 
 Gets the tag of the source image.
 
@@ -53,7 +53,7 @@ Returns a pointer to a CImageTag object representing the tag of the source image
 
 [CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
 
-### GetItemsCount
+## GetItemsCount
 
 Gets the number of parsed result items in the parsed result.
 
@@ -65,7 +65,7 @@ virtual int GetItemsCount() const = 0;
 
 Returns the number of parsed result items in the parsed result.
 
-### GetItem
+## GetItem
 
 Gets the parsed result item at the specified index.
 
@@ -83,9 +83,9 @@ Returns a pointer to the `CParsedResultItem` object at the specified index.
 
 **See Also**
 
-[CParsedResultItem]({{ site.cpp_api }}parsed-result-item.html)
+[CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)
 
-### GetErrorCode
+## GetErrorCode
 
 Gets the error code of the parsed result, if an error occurred.
 
@@ -97,7 +97,7 @@ virtual int GetErrorCode() const = 0;
 
 Returns the error code of the parsed result, or 0 if no error occurred.
 
-### GetErrorString
+## GetErrorString
 
 Gets the error message of the parsed result, if an error occurred.
 
@@ -109,7 +109,7 @@ virtual const char* GetErrorString() const = 0;
 
 Returns a pointer to a null-terminated string containing the error message of the parsed result, or a pointer to an empty string if no error occurred.
 
-### Release
+## Release
 
 Decreases the reference count of the `CParsedResult` object.
 
@@ -117,7 +117,7 @@ Decreases the reference count of the `CParsedResult` object.
 virtual void Release() = 0;
 ```
 
-### Retain
+## Retain
 
 Increases the reference count of the `CParsedResult` object.
 
@@ -129,7 +129,7 @@ virtual CParsedResult* Retain() = 0;
 
 Returns an object of `CParsedResult`.
 
-### operator[]
+## operator[]
 
 Gets a pointer to the `CParsedResultItem` object at the specified index.
 
@@ -147,4 +147,4 @@ Returns a pointer to the `CParsedResultItem` object at the specified index.
 
 **See Also**
 
-[CParsedResultItem]({{ site.cpp_api }}parsed-result-item.html)
+[CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)

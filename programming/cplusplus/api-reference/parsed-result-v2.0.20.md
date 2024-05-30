@@ -80,7 +80,7 @@ Returns a pointer to the `CParsedResultItem` object at the specified index.
 
 **See Also**
 
-[CParsedResultItem]({{ site.cpp_api }}parsed-result-item.html)
+[CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)
 
 ### GetErrorCode
 

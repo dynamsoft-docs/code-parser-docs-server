@@ -1,6 +1,5 @@
 
-* `DynamsoftCodeParser` SDK has been revamped to integrate with `DynamsoftCaptureVision (DCV)` architecture, which is newly established to aggregate the features of functional products powered by Dynamsoft. The features are designed to be pluggable, customizable and interactable. In addition, the functional products share the computation so that their processing speed is much higher than working individually.
-* Added C++ Edition. With this new edition, developers can effortlessly integrate code parsing capabilities into their C++ applications.
+* This is the first release of the .NET Edition of `DynamsoftCodeParser` SDK integrated with `DynamsoftCaptureVision (DCV)` architecture, which is newly established to aggregate the features of functional products powered by Dynamsoft. The features are designed to be pluggable, customizable and interactable. In addition, the functional products share the computation so that their processing speed is much higher than working individually.
 * Added supports to parse following code types:
   * [MRTD_TD1_ID]({{ site.dcp_code_types }}mrtd.html)
   * [MRTD_TD2_ID]({{ site.dcp_code_types }}mrtd.html)

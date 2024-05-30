@@ -23,7 +23,7 @@ In this guide, you will learn step by step on how to build a code parsing applic
   - G++ 5.4+  
 
 >Note:
->Dynamsoft Code Parser provides both online and offline license options. The online license option might not work in an environment that doesn't have network connection. In such case, you can get an offline trial license key via <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a> or by <a href="https://www.dynamsoft.com/company/contact/" target="_blank">contacting us</a>.
+>Dynamsoft Code Parser provides both online and offline license options. The online license option might not work in an environment that doesn't have network connection. In such case, you can get an offline trial license key via <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=c_cpp" target="_blank">Customer Portal</a> or by <a href="https://www.dynamsoft.com/company/contact/" target="_blank">contacting us</a>.
 
 ## Installation
 
@@ -89,7 +89,7 @@ if (errorCode != EC_OK)
 
 >Please replace `YOUR-LICENSE-KEY` with a valid DCP licensekey. There are two ways to obtain one:
 >- Search `InitLicense` and find the license from `[INSTALLATION FOLDER]/Dynamsoft/Resources/CodeParser/Samples/HelloWorld/HelloWorld.cpp`.
->- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=desktop" target="_blank">Customer Portal</a>.
+>- Request a trial license from <a href="https://www.dynamsoft.com/customer/license/trialLicense?utm_source=guide&product=dcp&package=c_cpp" target="_blank">Customer Portal</a>.
 
 Create an instance of Dynamsoft Code Parser.
 
@@ -117,7 +117,7 @@ if (dcpResult != NULL)
 }
 ```
 
->Please replace `A-SPECIFIC-FIELD-NAME` to a specific field name based on the code string you are parsing. Check out [Supported Code Types and Fields]({{ site.code_types }}) for details.
+>Please replace `A-SPECIFIC-FIELD-NAME` to a specific field name based on the code string you are parsing. Check out [Supported Code Types and Fields]({{ site.dcp_code_types }}) for details.
 
 ### Release Allocated Memory
 
