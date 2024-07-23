@@ -26,7 +26,6 @@ class dynamsoft::dcp::CParsedResult
 | [`Release`](#release) | Decreases the reference count of the `CParsedResult` object. |
 | [`Retain`](#retain) | Increases the reference count of the `CParsedResult` object. |
 | [`operator[]`](#operator)           | Gets a pointer to the `CParsedResultItem` object at the specified index.|
-| [`AddItem`](#additem) | Adds a specific item to the array in the parsed result. |
 
 ## GetOriginalImageHashId
 
@@ -152,7 +151,6 @@ Returns an error code. Zero indicates success.
 
 [CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)
 
-
 ## Release
 
 Decreases the reference count of the `CParsedResult` object.
@@ -192,24 +190,3 @@ Returns a pointer to the `CParsedResultItem` object at the specified index.
 **See Also**
 
 [CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)
-
-## AddItem
-
-Adds a specific item to the array in the parsed result.
-
-```cpp
-virtual int AddItem(const CParsedResultItem* item) = 0;
-```
-
-**Parameters**
-
-`[in] item` The specific item to be added.
-
-**Return value**
-
-Returns an error code. Zero indicates success.
-
-**See Also**
-
-[CParsedResultItem]({{ site.dcp_cpp_api }}parsed-result-item.html)
-
