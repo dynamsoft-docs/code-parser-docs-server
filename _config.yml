@@ -12,6 +12,10 @@ dcp_dotnet: /code-parser/docs/server/programming/dotnet/
 dcp_dotnet_api: /code-parser/docs/server/programming/dotnet/api-reference/
 dcp_dotnet_release_notes: /code-parser/docs/server/programming/dotnet/release-notes/
 
+dcp_python: /code-parser/docs/server/programming/python/
+dcp_python_api: /code-parser/docs/server/programming/python/api-reference/
+dcp_python_release_notes: /code-parser/docs/server/programming/python/release-notes/
+
 assets: /code-parser/docs/server/assets/
 edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
 smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
@@ -25,8 +29,10 @@ dcv_enumerations: /capture-vision/docs/core/enums/
 dcv_parameters: /capture-vision/docs/core/parameters/
 dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcv_python_api: /capture-vision/docs/server/programming/python/api-reference/
 
-useVersionTree: true
+useVersionTree: false
+isDCV: true
 
 baseurl: "/code-parser/docs/server"
 plugins:
@@ -53,6 +59,16 @@ defaults:
     values: 
       docRootName: "Code Parser C++ Edition" 
       docHomePage: "/code-parser/docs/server/programming/cplusplus/"
+  - scope: 
+      path: "programming/dotnet" 
+    values: 
+      docRootName: "Code Parser .NET Edition" 
+      docHomePage: "/code-parser/docs/server/programming/dotnet/"
+  - scope: 
+      path: "programming/python" 
+    values: 
+      docRootName: "Code Parser Python Edition" 
+      docHomePage: "/code-parser/docs/server/programming/python/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
