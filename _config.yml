@@ -1,34 +1,34 @@
 repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs-server/blob/main
 repository: dynamsoft-docs/code-parser-docs-server
-docFullPath: https://www.dynamsoft.com/code-parser/docs/server
-firstLevelUrl: /code-parser/docs/server/
-docHomePage: /code-parser/docs/core/introduction/
+docFullPath: https://www.dynamsoft.com/code-parser/docs-archive/server
+firstLevelUrl: /code-parser/docs-archive/server/
+docHomePage: /code-parser/docs-archive/core/introduction/
 
-dcp_cpp: /code-parser/docs/server/programming/cplusplus/
-dcp_cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
-dcp_cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+dcp_cpp: /code-parser/docs-archive/server/programming/cplusplus/
+dcp_cpp_api: /code-parser/docs-archive/server/programming/cplusplus/api-reference/
+dcp_cpp_release_notes: /code-parser/docs-archive/server/programming/cplusplus/release-notes/
 
-dcp_dotnet: /code-parser/docs/server/programming/dotnet/
-dcp_dotnet_api: /code-parser/docs/server/programming/dotnet/api-reference/
-dcp_dotnet_release_notes: /code-parser/docs/server/programming/dotnet/release-notes/
+dcp_dotnet: /code-parser/docs-archive/server/programming/dotnet/
+dcp_dotnet_api: /code-parser/docs-archive/server/programming/dotnet/api-reference/
+dcp_dotnet_release_notes: /code-parser/docs-archive/server/programming/dotnet/release-notes/
 
-assets: /code-parser/docs/server/assets/
-edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/docs/server/assets/img-icon/icon-sad.png
+assets: /code-parser/docs-archive/server/assets/
+edit_icon: /code-parser/docs-archive/server/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs-archive/server/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs-archive/server/assets/img-icon/icon-sad.png
 
-dcp_release_notes: /code-parser/docs/core/release-notes/
-dcp_code_types: /code-parser/docs/core/code-types/
-dcp_parameters: /code-parser/docs/core/parameters/
+dcp_release_notes: /code-parser/docs-archive/core/release-notes/
+dcp_code_types: /code-parser/docs-archive/core/code-types/
+dcp_parameters: /code-parser/docs-archive/core/parameters/
 
-dcv_enumerations: /capture-vision/docs/core/enums/
-dcv_parameters: /capture-vision/docs/core/parameters/
-dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcv_enumerations: /capture-vision/docs-archive/core/enums/
+dcv_parameters: /capture-vision/docs-archive/core/parameters/
+dcv_cpp_api: /capture-vision/docs-archive/server/programming/cplusplus/api-reference/
+dcv_dotnet_api: /capture-vision/docs-archive/server/programming/dotnet/api-reference/
 
 useVersionTree: true
 
-baseurl: "/code-parser/docs/server"
+baseurl: "/code-parser/docs-archive/server"
 plugins:
   - jemoji
   - jekyll-sitemap
@@ -52,7 +52,7 @@ defaults:
       path: "programming/cplusplus" 
     values: 
       docRootName: "Code Parser C++ Edition" 
-      docHomePage: "/code-parser/docs/server/programming/cplusplus/"
+      docHomePage: "/code-parser/docs-archive/server/programming/cplusplus/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
