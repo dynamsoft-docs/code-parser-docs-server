@@ -16,7 +16,7 @@ The `CodeParserModule` class defines general functions in the code parser module
 
 
 ```python
-class CodeParserModule(object)
+class CodeParserModule
 ```
 
 ## Methods
