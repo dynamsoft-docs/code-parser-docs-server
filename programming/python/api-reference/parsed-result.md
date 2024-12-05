@@ -15,7 +15,7 @@ The `ParsedResult` class represents the results of a code parser process.
 *Module:* dynamsoft_code_parser
 
 ```python
-class ParsedResult(object)
+class ParsedResult
 ```
 
 ## Methods
