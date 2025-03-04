@@ -3,6 +3,8 @@ repository: dynamsoft-docs/code-parser-docs-server
 docFullPath: https://www.dynamsoft.com/code-parser/docs/server
 firstLevelUrl: /code-parser/docs/server/
 docHomePage: /code-parser/docs/core/introduction/
+needSearchIndex: true
+searchNeedFilter: true
 
 dcp_cpp: /code-parser/docs/server/programming/cplusplus/
 dcp_cpp_api: /code-parser/docs/server/programming/cplusplus/api-reference/
