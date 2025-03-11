@@ -18,7 +18,6 @@ class dynamsoft::dcp::CParsedResultItem
   | [`GetCodeType`](#getcodetype) | Gets the code type of the parsed result. |
   | [`GetFieldMappingStatus`](#getfieldmappingstatus) | Gets the mapping status of a specified field from the parsed result. |
   | [`GetFieldValidationStatus`](#getfieldvalidationstatus) | Gets the validation status of a specified field from the parsed result. |
-  | [`GetFieldRawValue`](#getfieldrawvalue) | Gets the raw string of a specified field from the parsed result. |
   | [`GetFieldValue`](#getfieldvalue) | Gets the value of a specified field from the parsed result. |
   | [`GetJsonString`](#getjsonstring) | Gets the parsed result as a JSON formatted string. |
   
@@ -45,22 +44,6 @@ const char* dynamsoft::dcp::CParsedResultItem::GetJsonString()
 **Return Value**
 
 Returns a JSON formatted string representing the parsed result.
-
-## GetFieldRawValue
-
-Gets the raw string of a specified field from the parsed result.
-
-```cpp
-const char* GetFieldRawValue(const char* fieldName)
-```
-
-**Parameters**
-
-`[in] fieldName` The name of the field.
-
-**Return Value**
-
-Returns a string representing the specified field raw string.
 
 ## GetFieldValue
 
