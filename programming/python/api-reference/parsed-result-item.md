@@ -78,7 +78,7 @@ Returns an `EnumMappingStatus` value representing the mapping status of a specif
 
 **See Also**
 
-[EnumMappingStatus]({{ site.dcp_python_api }}enum-mapping-status.html?lang=python)
+[EnumMappingStatus]({{ site.dcp_python_api }}enum-mapping-status.html)
 
 ### get_field_validation_status
 
@@ -98,7 +98,7 @@ Returns an `EnumValidationStatus` value representing the validation status of a 
 
 **See Also**
 
-[EnumValidationStatus]({{ site.dcp_python_api }}enum-validation-status.html?lang=python)
+[EnumValidationStatus]({{ site.dcp_python_api }}enum-validation-status.html)
 
 ### get_json_string
 
