@@ -3,6 +3,7 @@ layout: default-layout
 title: ParsedResult Class - Dynamsoft Code Parser Module Python Edition API Reference
 description: Definition of the ParsedResult class in Dynamsoft Code Parser Module Python Edition.
 keywords: ParsedResult, api reference, python
+needAutoGenerateSidebar: true
 ---
 
 # ParsedResult Class
@@ -14,7 +15,7 @@ The `ParsedResult` class represents the results of a code parser process.
 *Module:* dynamsoft_code_parser
 
 ```python
-class ParsedResult(CapturedResultBase)
+class ParsedResult
 ```
 
 ## Methods

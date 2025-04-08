@@ -76,11 +76,11 @@ MappingStatus dynamsoft::dcp::CParsedResultItem::GetFieldMappingStatus(const cha
 
 **Return Value**
 
-Returns a [MappingStatus]({{ site.dcv_enumerations }}code-parser/mapping-status.html?lang=cpp) enumeration value representing the mapping status of a specified field.
+Returns a [MappingStatus]({{ site.dcvb_enumerations }}code-parser/mapping-status.html?lang=cpp) enumeration value representing the mapping status of a specified field.
 
 **See Also**
 
-[MappingStatus]({{ site.dcv_enumerations }}code-parser/mapping-status.html?lang=cpp)
+[MappingStatus]({{ site.dcvb_enumerations }}code-parser/mapping-status.html?lang=cpp)
 
 ## GetFieldValidationStatus
 
@@ -96,8 +96,8 @@ ValidationStatus dynamsoft::dcp::CParsedResultItem::GetFieldValidationStatus(con
 
 **Return Value**
 
-Returns a [ValidationStatus]({{ site.dcv_enumerations }}code-parser/validation-status.html?lang=cpp) enumeration value representing the validation status of a specified field.
+Returns a [ValidationStatus]({{ site.dcvb_enumerations }}code-parser/validation-status.html?lang=cpp) enumeration value representing the validation status of a specified field.
 
 **See Also**
 
-[ValidationStatus]({{ site.dcv_enumerations }}code-parser/validation-status.html?lang=cpp)
+[ValidationStatus]({{ site.dcvb_enumerations }}code-parser/validation-status.html?lang=cpp)
