@@ -54,7 +54,7 @@ Returns a pointer to a CImageTag object representing the tag of the source image
 
 **See Also**
 
-[CImageTag]({{ site.dcv_cpp_api }}core/basic-structures/image-tag.html)
+[CImageTag]({{ site.dcvb_cpp_api }}core/basic-structures/image-tag.html)
 
 ## GetItemsCount
 

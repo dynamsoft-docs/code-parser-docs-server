@@ -29,7 +29,6 @@ class ParsedResultItem(dynamsoft_core.CapturedResultItem)
 | [`get_field_mapping_status`](#get_field_mapping_status) | Gets the mapping status of a specified field from the parsed result. |
 | [`get_field_validation_status`](#get_field_validation_status) | Gets the validation status of a specified field from the parsed result. |
 | [`get_json_string`](#get_json_string) | Gets the parsed result as a JSON formatted string. |
-| [`get_field_raw_value`](#get_field_raw_value) | Gets the raw string of a specified field from the parsed result. |
 
 ### get_code_type
 
@@ -78,7 +77,7 @@ Returns an `EnumMappingStatus` value representing the mapping status of a specif
 
 **See Also**
 
-[EnumMappingStatus]({{ site.dcp_python_api }}enum-mapping-status.html)
+[EnumMappingStatus]({{ site.dcvb_enumerations }}code-parser/mapping-status.html?lang=python)
 
 ### get_field_validation_status
 
@@ -98,7 +97,7 @@ Returns an `EnumValidationStatus` value representing the validation status of a 
 
 **See Also**
 
-[EnumValidationStatus]({{ site.dcp_python_api }}enum-validation-status.html)
+[EnumValidationStatus]({{ site.dcvb_enumerations }}code-parser/validation-status.html?lang=python)
 
 ### get_json_string
 
@@ -111,20 +110,4 @@ def get_json_string(self) -> str:
 **Return Value**
 
 Returns a JSON formatted string representing the full parsed result.
-
-## get_field_raw_value
-
-Gets the raw string of a specified field from the parsed result.
-
-```python
-def get_field_raw_value(self, field_name: str) -> str:
-```
-
-**Parameters**
-
-`field_name` The name of the field.
-
-**Return Value**
-
-Returns a string representing the specified field raw string.
 

@@ -56,7 +56,7 @@ Returns an `ImageTag` object representing the tag of the source image.
 
 **See Also**
 
-[ImageTag]({{ site.dcv_dotnet_api }}core/basic-classes/image-tag.html)
+[ImageTag]({{ site.dcvb_dotnet_api }}core/basic-classes/image-tag.html)
 
 ### GetItems
 
@@ -88,7 +88,7 @@ Returns the error code of the parsed result, or 0 if no error occurred.
 
 **See Also**
 
-[EnumErrorCode]({{ site.dcv_enumerations }}core/error-code.html?lang=dotnet)
+[EnumErrorCode]({{ site.dcvb_enumerations }}core/error-code.html?lang=dotnet)
 
 ### GetErrorString
 

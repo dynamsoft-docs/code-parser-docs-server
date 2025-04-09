@@ -27,11 +27,11 @@ dcp_release_notes: /code-parser/docs/core/release-notes/
 dcp_code_types: /code-parser/docs/core/code-types/
 dcp_parameters: /code-parser/docs/core/parameters/
 
-dcv_enumerations: /capture-vision/docs/core/enums/
-dcv_parameters: /capture-vision/docs/core/parameters/
-dcv_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
-dcv_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
-dcv_python_api: /capture-vision/docs/server/programming/python/api-reference/
+dcvb_enumerations: /capture-vision/docs/core/enums/
+dcvb_parameters: /capture-vision/docs/core/parameters/
+dcvb_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
+dcvb_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
+dcvb_python_api: /capture-vision/docs/server/programming/python/api-reference/
 
 useVersionTree: false
 isDCV: true
