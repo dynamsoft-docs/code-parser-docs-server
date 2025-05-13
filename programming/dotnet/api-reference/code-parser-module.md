@@ -14,11 +14,8 @@ The `CodeParserModule` class defines general functions in the code parser module
 
 *Namespace:* Dynamsoft.DCP
 
-*Assembly:* Dynamsoft.CodeParser.dll
-
-
 ```csharp
-public class CodeParserModule
+public static class CodeParserModule
 ```
 
 ## Methods
