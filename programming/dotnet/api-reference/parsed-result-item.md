@@ -31,7 +31,8 @@ public class ParsedResultItem : CapturedResultItem
   | [`GetFieldMappingStatus`](#getfieldmappingstatus) | Gets the mapping status of a specified field from the parsed result. |
   | [`GetFieldValidationStatus`](#getfieldvalidationstatus) | Gets the validation status of a specified field from the parsed result. |
   | [`GetJsonString`](#getjsonstring) | Gets the parsed result as a JSON formatted string. |
-  
+  | [`GetFieldCount`](#getfieldcount) | Gets the total number of parsed fields. |
+  | [`GetFieldName`](#getfieldname) | Gets the name of a specific parsed field by its index. |
 
 ### GetCodeType
 
@@ -130,3 +131,32 @@ string GetJsonString()
 
 Returns a JSON formatted string representing the full parsed result.
 
+## GetFieldCount
+
+Gets the total number of parsed fields.
+
+```csharp
+int GetFieldCount()
+```
+
+**Return Value**
+
+Returns an integer representing the count of parsed fields.
+
+## GetFieldName
+
+Gets the name of a specific parsed field by its index.
+
+```csharp
+string GetFieldName(int index)
+```
+
+**Parameters**
+
+`[in] index` The index of the parsed field.
+
+**Return Value**
+
+Returns a string representing the specified field name. 
+
+If the field is nested, the name includes all parent fields, separated by a dot (.). The format follows this pattern: <root_field>[.<child_field1>[.<child_field2>...]]
