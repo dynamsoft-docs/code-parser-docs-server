@@ -21,7 +21,9 @@ class dynamsoft::dcp::CParsedResultItem
   | [`GetFieldRawValue`](#getfieldrawvalue) | Gets the raw string of a specified field from the parsed result. |
   | [`GetFieldValue`](#getfieldvalue) | Gets the value of a specified field from the parsed result. |
   | [`GetJsonString`](#getjsonstring) | Gets the parsed result as a JSON formatted string. |
-  
+  | [`GetFieldCount`](#getfieldcount) | Gets the total number of parsed fields. |
+  | [`GetFieldName`](#getfieldname) | Gets the name of a specific parsed field by its index. |
+
 ## GetCodeType
 
 Gets the code type of the parsed result.
@@ -118,3 +120,33 @@ Returns a [ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?
 **See Also**
 
 [ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?lang=cpp)
+
+## GetFieldCount
+
+Gets the total number of parsed fields.
+
+```cpp
+int GetFieldCount()
+```
+
+**Return Value**
+
+Returns an integer representing the count of parsed fields.
+
+## GetFieldName
+
+Gets the name of a specific parsed field by its index.
+
+```cpp
+const char* GetFieldName(const int index)
+```
+
+**Parameters**
+
+`[in] index` The index of the parsed field.
+
+**Return Value**
+
+Returns a string representing the specified field name.
+
+If the field is nested, the name includes all parent fields, separated by a dot (.). The format follows this pattern: <root_field>[.<child_field1>[.<child_field2>...]]
