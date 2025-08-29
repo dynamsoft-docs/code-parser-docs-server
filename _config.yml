@@ -18,6 +18,9 @@ dcp_python: /code-parser/docs/server/programming/python/
 dcp_python_api: /code-parser/docs/server/programming/python/api-reference/
 dcp_python_release_notes: /code-parser/docs/server/programming/python/release-notes/
 
+dcp_java: /code-parser/docs/server/programming/java/
+dcp_java_api: /code-parser/docs/server/programming/java/api-reference/
+
 assets: /code-parser/docs/server/assets/
 edit_icon: /code-parser/docs/server/assets/img-icon/edit-icon.png
 smile_icon: /code-parser/docs/server/assets/img-icon/icon-smile.png
@@ -32,6 +35,7 @@ dcvb_parameters: /capture-vision/docs/core/parameters/
 dcvb_cpp_api: /capture-vision/docs/server/programming/cplusplus/api-reference/
 dcvb_dotnet_api: /capture-vision/docs/server/programming/dotnet/api-reference/
 dcvb_python_api: /capture-vision/docs/server/programming/python/api-reference/
+dcvb_java_api: /capture-vision/docs/server/programming/java/api-reference/
 
 useVersionTree: false
 isDCV: true
