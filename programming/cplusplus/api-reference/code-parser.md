@@ -159,6 +159,3 @@ dcp->InitSettings("YOUR-SETTING-STRING", errorBuf, 512);
 delete dcp;
 ```
 
-**See Also**
-
-[Parameter Organization when Using Dynamsoft Code Parser Independently]({{site.dcp_parameters}}parameter-organization-structure.html#parameter-organization-when-using-dynamsoft-code-parser-independently)

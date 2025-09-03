@@ -14,52 +14,48 @@ The `ParsedResult` class represents the results of a code parser process.
 
 *Namespace:* Dynamsoft.DCP
 
-*Inheritance:* [CapturedResultBase]({{ site.dcvb_dotnet_api }}core/basic-classes/captured-result-base.html) -> ParsedResult
 
 ```csharp
-public class ParsedResult : CapturedResultBase, IEnumerable<ParsedResultItem>
+public class ParsedResult
 ```
 
 ## Methods
 
 | Method               | Description |
 |----------------------|-------------|
-| [`GetItemsCount`](#getitemscount)           | Gets the number of parsed result items.|
-| [`GetItem`](#getitem)           | Gets a `ParsedResultItem` object at the specified index.|
+| [`GetOriginalImageHashId`](#getoriginalimagehashid) | Gets the hash ID of the source image. |
+| [`GetOriginalImageTag`](#getoriginalimagetag) | Gets the tag of the source image. |
 | [`GetItems`](#getitems) | Gets all the parsed result items. |
+| [`GetErrorCode`](#geterrorcode) | Gets the error code of the parsed result, if an error occurred. |
+| [`GetErrorString`](#geterrorstring) | Gets the error message of the parsed result, if an error occurred. |
 
-### GetItemsCount
+### GetOriginalImageHashId
 
-Gets the number of parsed result items.
-
-```csharp
-int GetItemsCount()
-```
-
-**Return value**
-
-Returns the number of parsed result items.
-
-### GetItem
-
-Gets a `ParsedResultItem` object at the specified index.
+Gets the hash ID of the source image.
 
 ```csharp
-ParsedResultItem GetItem(int index)
+string GetOriginalImageHashId()
 ```
 
-**Parameter**
+**Return Value**
 
-`[in] index` The index of the desired `ParsedResultItem` object.
+Returns a string containing the hash ID of the source image.
 
-**Return value**
+### GetOriginalImageTag
 
-Returns the `ParsedResultItem` object at the specified index.
+Gets the tag of the source image.
+
+```csharp
+ImageTag GetOriginalImageTag()
+```
+
+**Return Value**
+
+Returns an `ImageTag` object representing the tag of the source image.
 
 **See Also**
 
-[ParsedResultItem]({{ site.dbr_dotnet_api }}parsed-result-item.html)
-
+[ImageTag]({{ site.dcvb_dotnet_api }}core/basic-classes/image-tag.html)
 
 ### GetItems
 
@@ -76,4 +72,32 @@ Returns a `ParsedResultItem` array.
 **See Also**
 
 [ParsedResultItem]({{ site.dcp_dotnet_api }}parsed-result-item.html)
+
+### GetErrorCode
+
+Gets the error code of the parsed result, if an error occurred.
+
+```csharp
+int GetErrorCode()
+```
+
+**Return Value**
+
+Returns the error code of the parsed result, or 0 if no error occurred.
+
+**See Also**
+
+[EnumErrorCode]({{ site.dcvb_dotnet_api }}core/enum-error-code.html)
+
+### GetErrorString
+
+Gets the error message of the parsed result, if an error occurred.
+
+```csharp
+string GetErrorString()
+```
+
+**Return Value**
+
+Returns a string containing the error message of the parsed result, or an empty string if no error occurred.
 

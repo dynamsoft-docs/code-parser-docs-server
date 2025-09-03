@@ -18,12 +18,9 @@ class dynamsoft::dcp::CParsedResultItem
   | [`GetCodeType`](#getcodetype) | Gets the code type of the parsed result. |
   | [`GetFieldMappingStatus`](#getfieldmappingstatus) | Gets the mapping status of a specified field from the parsed result. |
   | [`GetFieldValidationStatus`](#getfieldvalidationstatus) | Gets the validation status of a specified field from the parsed result. |
-  | [`GetFieldRawValue`](#getfieldrawvalue) | Gets the raw string of a specified field from the parsed result. |
   | [`GetFieldValue`](#getfieldvalue) | Gets the value of a specified field from the parsed result. |
   | [`GetJsonString`](#getjsonstring) | Gets the parsed result as a JSON formatted string. |
-  | [`GetFieldCount`](#getfieldcount) | Gets the total number of parsed fields. |
-  | [`GetFieldName`](#getfieldname) | Gets the name of a specific parsed field by its index. |
-
+  
 ## GetCodeType
 
 Gets the code type of the parsed result.
@@ -47,22 +44,6 @@ const char* dynamsoft::dcp::CParsedResultItem::GetJsonString()
 **Return Value**
 
 Returns a JSON formatted string representing the parsed result.
-
-## GetFieldRawValue
-
-Gets the raw string of a specified field from the parsed result.
-
-```cpp
-const char* GetFieldRawValue(const char* fieldName)
-```
-
-**Parameters**
-
-`[in] fieldName` The name of the field.
-
-**Return Value**
-
-Returns a string representing the specified field raw string.
 
 ## GetFieldValue
 
@@ -95,11 +76,11 @@ MappingStatus dynamsoft::dcp::CParsedResultItem::GetFieldMappingStatus(const cha
 
 **Return Value**
 
-Returns a [MappingStatus]({{ site.dcvb_cpp_api }}enum-mapping-status.html?lang=cpp) enumeration value representing the mapping status of a specified field.
+Returns a [MappingStatus]({{ site.dcvb_enumerations }}code-parser/mapping-status.html?lang=cpp) enumeration value representing the mapping status of a specified field.
 
 **See Also**
 
-[MappingStatus]({{ site.dcvb_cpp_api }}enum-mapping-status.html?lang=cpp)
+[MappingStatus]({{ site.dcvb_enumerations }}code-parser/mapping-status.html?lang=cpp)
 
 ## GetFieldValidationStatus
 
@@ -115,38 +96,8 @@ ValidationStatus dynamsoft::dcp::CParsedResultItem::GetFieldValidationStatus(con
 
 **Return Value**
 
-Returns a [ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?lang=cpp) enumeration value representing the validation status of a specified field.
+Returns a [ValidationStatus]({{ site.dcvb_enumerations }}code-parser/validation-status.html?lang=cpp) enumeration value representing the validation status of a specified field.
 
 **See Also**
 
-[ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?lang=cpp)
-
-## GetFieldCount
-
-Gets the total number of parsed fields.
-
-```cpp
-int GetFieldCount()
-```
-
-**Return Value**
-
-Returns an integer representing the count of parsed fields.
-
-## GetFieldName
-
-Gets the name of a specific parsed field by its index.
-
-```cpp
-const char* GetFieldName(const int index)
-```
-
-**Parameters**
-
-`[in] index` The index of the parsed field.
-
-**Return Value**
-
-Returns a string representing the specified field name.
-
-If the field is nested, the name includes all parent fields, separated by a dot (.). The format follows this pattern: <root_field>[.<child_field1>[.<child_field2>...]]
+[ValidationStatus]({{ site.dcvb_enumerations }}code-parser/validation-status.html?lang=cpp)
