@@ -39,6 +39,7 @@ dcvb_java_api: /capture-vision/docs/server/programming/java/api-reference/
 
 useVersionTree: false
 isDCV: true
+useJSVersionV3: true
 
 baseurl: "/code-parser/docs/server"
 plugins:
