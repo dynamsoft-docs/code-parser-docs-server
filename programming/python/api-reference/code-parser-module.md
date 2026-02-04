@@ -12,7 +12,7 @@ The `CodeParserModule` class defines general functions in the code parser module
 
 ## Definition
 
-*Module:* dynamsoft_code_parser
+*Module:* dcp
 
 
 ```python
