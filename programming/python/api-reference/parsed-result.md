@@ -11,7 +11,7 @@ The `ParsedResult` class represents the results of a code parser process.
 
 ## Definition
 
-*Module:* dynamsoft_code_parser
+*Module:* dcp
 
 ```python
 class ParsedResult(CapturedResultBase)
