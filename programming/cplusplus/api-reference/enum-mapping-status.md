@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: MappingStatus - Dynamsoft Code Parser Enumerations
-description: The enumeration MappingStatus of Dynamsoft Code Parser represents the outcome of a mapping operation on a field.
+description: "Explore MappingStatus values in Dynamsoft Code Parser C++ API and learn how they define status, configuration, and processing behavior for modern web."
 keywords: Mapping status
 ---
 
