@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: ValidationStatus - Dynamsoft Code Parser Enumerations
-description: The enumeration ValidationStatus of Dynamsoft Code Parser describes the outcome of a validation process on a field.
+description: "Explore ValidationStatus values in Dynamsoft Code Parser C++ API and learn how they define status, configuration, and processing behavior for modern web."
 keywords: Validation status
 ---
 

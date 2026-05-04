@@ -1,7 +1,7 @@
 ---
 layout: default-layout
 title: CodeType - Dynamsoft Code Parser Python Enumerations
-description: The enumeration CodeType of Dynamsoft Code Parser represents all supported code type strings.
+description: "Explore CodeType values in Dynamsoft Code Parser Python API and learn how they define status, configuration, and processing behavior for modern web today."
 keywords: code type, python
 ---
 
