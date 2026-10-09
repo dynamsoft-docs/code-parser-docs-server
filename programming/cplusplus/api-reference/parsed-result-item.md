@@ -95,11 +95,11 @@ MappingStatus dynamsoft::dcp::CParsedResultItem::GetFieldMappingStatus(const cha
 
 **Return Value**
 
-Returns a [MappingStatus]({{ site.dcvb_cpp_api }}enum-mapping-status.html?lang=cpp) enumeration value representing the mapping status of a specified field.
+Returns a [MappingStatus](enum-mapping-status.html) enumeration value representing the mapping status of a specified field.
 
 **See Also**
 
-[MappingStatus]({{ site.dcvb_cpp_api }}enum-mapping-status.html?lang=cpp)
+[MappingStatus](enum-mapping-status.html)
 
 ## GetFieldValidationStatus
 
@@ -115,11 +115,11 @@ ValidationStatus dynamsoft::dcp::CParsedResultItem::GetFieldValidationStatus(con
 
 **Return Value**
 
-Returns a [ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?lang=cpp) enumeration value representing the validation status of a specified field.
+Returns a [ValidationStatus](enum-validation-status.html) enumeration value representing the validation status of a specified field.
 
 **See Also**
 
-[ValidationStatus]({{ site.dcvb_cpp_api }}enum-validation-status.html?lang=cpp)
+[ValidationStatus](enum-validation-status.html)
 
 ## GetFieldCount
 
