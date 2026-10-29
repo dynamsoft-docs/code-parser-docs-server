@@ -58,7 +58,7 @@ Returns the `ParsedResultItem` object at the specified index.
 
 **See Also**
 
-[ParsedResultItem]({{ site.dbr_dotnet_api }}parsed-result-item.html)
+[ParsedResultItem]({{ site.dcp_dotnet_api }}parsed-result-item.html)
 
 
 ### GetItems
